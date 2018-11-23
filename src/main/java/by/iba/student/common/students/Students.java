@@ -1,17 +1,17 @@
-package Professors;
+package by.iba.student.common.students;
 
-public class Professors {
+public class Students {
     private String first_name;
     private String second_name;
     private String father_name;
-    private String birthday;
+    private int group_num;
     private double avg_mark;
 
-    public Professors(String first_name, String second_name, String father_name, String birthday, double avg_mark) {
+    public Students(String first_name, String second_name, String father_name, int group_num, double avg_mark) {
         this.first_name = first_name;
         this.second_name = second_name;
         this.father_name = father_name;
-        this.birthday = birthday;
+        this.group_num = group_num;
         this.avg_mark = avg_mark;
     }
 
@@ -39,12 +39,12 @@ public class Professors {
         this.father_name = father_name;
     }
 
-    public String getBirthday() {
-        return birthday;
+    public int getGroup_num() {
+        return group_num;
     }
 
-    public void setBirthday(String birthday) {
-        this.birthday = birthday;
+    public void setGroup_num(int group_num) {
+        this.group_num = group_num;
     }
 
     public double getAvg_mark() {

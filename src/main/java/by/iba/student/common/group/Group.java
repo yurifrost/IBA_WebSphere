@@ -1,4 +1,4 @@
-package Group;
+package by.iba.student.common.group;
 
 public class Group {
 

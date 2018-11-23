@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="F16F67BD-AF78-834D-5AAE-870F834AC07C" name="groups" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A0F38DF-C47F-DBB1-1B04-3DBD3C31562F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="64BD13F2-EDE4-6578-3798-2B4AE8041A37" name="marks" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A0F38DF-C47F-DBB1-1B04-3DBD3C31562F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="78A3C2A1-0024-D6CB-57E3-2A92456AEB43" name="professors" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A0F38DF-C47F-DBB1-1B04-3DBD3C31562F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="15E17A1A-982C-BC3C-0CBB-AE92180AB28F" name="students" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A0F38DF-C47F-DBB1-1B04-3DBD3C31562F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="CA4B75B3-8F28-F285-BE27-5584B80AD6D2" name="studies" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A0F38DF-C47F-DBB1-1B04-3DBD3C31562F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="7FCFE07E-8B69-C102-C7D6-58E819BC5035" name="users" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A0F38DF-C47F-DBB1-1B04-3DBD3C31562F" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

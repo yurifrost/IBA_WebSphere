@@ -1,4 +1,4 @@
-package Marks;
+package by.iba.student.common.marks;
 
 public class Marks {
 

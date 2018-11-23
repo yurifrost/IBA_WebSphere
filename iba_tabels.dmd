@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="iba_tabels" id="EE3463ED-8D31-5EBF-64B6-1394CF5585BB" version="3.5">
+<createdBy>User</createdBy>
+<createdTime>2018-11-23 06:48:54 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EE3463ED-8D31-5EBF-64B6-1394CF5585BB</designId>
+</OSDM_Design>

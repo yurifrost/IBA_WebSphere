@@ -1,4 +1,4 @@
-package Studies;
+package by.iba.student.common.studies;
 
 public class Studies {
   private   int professor_id;

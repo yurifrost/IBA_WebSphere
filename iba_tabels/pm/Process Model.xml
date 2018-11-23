@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="6E2CCE1B-E688-A098-A8DA-DF136FF0CF14">
+<createdBy>User</createdBy>
+<createdTime>2018-11-23 06:48:55 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
