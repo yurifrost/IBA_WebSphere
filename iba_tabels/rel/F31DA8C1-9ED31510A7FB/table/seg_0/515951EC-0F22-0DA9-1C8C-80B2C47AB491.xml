@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="515951EC-0F22-0DA9-1C8C-80B2C47AB491" name="marks">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:44 UTC</createdTime>
+<generatorID>64BD13F2-EDE4-6578-3798-2B4AE8041A37</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0DC9CED0-8E09-04AB-8919-CA6AB2BA73F5">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:44 UTC</createdTime>
+<generatorID>C1ED0F24-D98B-B378-B9E5-6769F3BE8486</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="study_id" id="FF75EBFA-1718-0474-D0B8-F5B5993B5C6C">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:44 UTC</createdTime>
+<generatorID>AEF1D6B6-AC76-62DD-1D6F-E1E3765032C8</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_id" id="53CCCA4C-EF5D-66BF-96E9-58E05C980706">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:44 UTC</createdTime>
+<generatorID>2E738FFE-F9FE-7C9D-6808-4C6185FF8470</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="4D81ACC9-982C-83B9-9A2D-6E2F415D0684">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:44 UTC</createdTime>
+<generatorID>E4DB3954-8C1B-9047-45AF-CD67120D5C60</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="professor_id" id="BE50A76C-58C6-F1FA-43F3-2157BB0C02B6">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:44 UTC</createdTime>
+<generatorID>165C3147-2543-2AE8-F77C-B89B68FB19E7</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mark" id="1294183F-B873-781E-BE12-E912ABC0CB14">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:44 UTC</createdTime>
+<generatorID>621ECA59-A6F2-E0A3-F6C3-09ABED3FF3BC</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comments" id="B2571FD0-9F6E-FE9F-25B8-66ED017DB3CC">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:44 UTC</createdTime>
+<generatorID>4C31D63B-A850-595A-559A-69ADF7CB3633</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marks_ID" id="82B69BCD-B9C4-A4DB-6234-929EED1D7218">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="students_students_ID" id="31692110-1104-F9BE-0322-3EF245DA3B9F">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99BFD194-B07D-2849-2F42-55401D84B75A" referredColumn="06840CFC-39FD-57DA-77C1-3E00C788BC68"/>
+</associations>
+</Column>
+<Column name="studies_studies_ID" id="E94E8C07-FF5F-7340-D1CC-61E3D922B2FA">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="814ABE45-DCFC-FBE3-B682-5DEDC83FF6D3" referredColumn="C51264E0-9418-1981-5370-4ABACEB86D86"/>
+</associations>
+</Column>
+<Column name="professors_professors_ID" id="098C0506-2807-1529-1E7B-F69626FC4818">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E9B07B1-BAB5-37F1-9A51-DD93093911B2" referredColumn="670D92DF-AF8C-0FB0-276D-62B0EF2C6790"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B52C840-ABBC-46AF-1180-D8C6940C8DD1" name="marks_PK">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="82B69BCD-B9C4-A4DB-6234-929EED1D7218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="337273CF-E9DE-64F3-920C-DEFADF72EA62" name="marks__IDX">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>79117880-7465-1550-8B71-9284DCB9C812</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="31692110-1104-F9BE-0322-3EF245DA3B9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B66153D1-B106-DF95-D8B9-3AE94E58D726" name="marks__IDXv1">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A5BDA91C-352F-D87C-0337-8AD616CB1B0E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E94E8C07-FF5F-7340-D1CC-61E3D922B2FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F0775E6-0C8A-36C4-F5BC-9688CB9AD747" name="marks__IDXv2">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>15B2222C-2E7B-BAD4-B6B2-64ED9D0ADF5A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="098C0506-2807-1529-1E7B-F69626FC4818"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D917F74-C76B-DB42-97C5-29FD78E2002D" name="marks_students_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<generatorID>79117880-7465-1550-8B71-9284DCB9C812</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31692110-1104-F9BE-0322-3EF245DA3B9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABE429F3-8927-8A34-03EB-5F41BE43E2E2" name="marks_studies_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<generatorID>A5BDA91C-352F-D87C-0337-8AD616CB1B0E</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E94E8C07-FF5F-7340-D1CC-61E3D922B2FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9644673D-6884-4FEF-946D-32F5212B76A7" name="marks_professors_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<generatorID>15B2222C-2E7B-BAD4-B6B2-64ED9D0ADF5A</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="098C0506-2807-1529-1E7B-F69626FC4818"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

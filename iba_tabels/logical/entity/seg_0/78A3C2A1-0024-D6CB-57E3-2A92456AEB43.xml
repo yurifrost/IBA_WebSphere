@@ -42,5 +42,46 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="second_name" id="233B9370-58ED-0F8F-1B36-7D1E8DBD1F4A">
+<createdBy>User</createdBy>
+<createdTime>2018-11-23 07:55:36 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<engineerTo>
+<item key="F31DA8C1-100F-3533-72B4-9ED31510A7FB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthday" id="03E2241F-3845-650C-3688-2C1D2C410B70">
+<createdBy>User</createdBy>
+<createdTime>2018-11-23 07:56:24 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<engineerTo>
+<item key="F31DA8C1-100F-3533-72B4-9ED31510A7FB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="avg_mark" id="C1102CD4-3B2C-5C66-6302-6E9696B45101">
+<createdBy>User</createdBy>
+<createdTime>2018-11-23 07:56:54 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<engineerTo>
+<item key="F31DA8C1-100F-3533-72B4-9ED31510A7FB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

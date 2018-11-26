@@ -11,13 +11,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import by.iba.student.common.group.Group;
-import by.iba.student.common.Student;
+//import by.iba.student.common.Student;
 
 public class MainServlet extends HttpServlet {
 
     private static final long serialVersionUID = 6345194212526801506L;
 
-    private final static List<Student> STUDENTS = new ArrayList<Student>();
+   // private final static List<Student> STUDENTS = new ArrayList<Student>();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)

@@ -1,9 +1,95 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86B34392-8B4D-6997-A599-6B7C1EB467AB" name="TABLE_1">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86B34392-8B4D-6997-A599-6B7C1EB467AB" name="groups">
 <createdBy>User</createdBy>
 <createdTime>2018-11-23 06:50:04 UTC</createdTime>
 <ownerDesignName>iba_tabels</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="groups_ID" id="996A4205-ABF4-DF4B-6420-98A7768F104A">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="group_number" id="16EBEE60-C585-76F9-0683-404DCDCB9BB1">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:44 UTC</createdTime>
+<generatorID>0F09D40B-D7DD-0FE9-BA1D-D5E9640738F4</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="avg_mark" id="33026842-F569-2214-5BC6-8FB011DF8015">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:44 UTC</createdTime>
+<generatorID>62EB643E-F4FF-4CA8-05CC-949671E42E5E</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="students_students_ID" id="CE7C02E4-B5D3-A56E-6578-D220731C496E">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE0D8501-945F-F426-3027-4C6AF4CB7C0A" referredColumn="06840CFC-39FD-57DA-77C1-3E00C788BC68"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="500CDC90-304F-F6F1-F76E-2CBEEF6BA797" name="groups_PK">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="996A4205-ABF4-DF4B-6420-98A7768F104A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53E167A6-3E91-7DE2-CCB9-A5EEB5835929" name="groups__IDX">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:45 UTC</createdTime>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>927DB79E-0485-E3A7-6DF8-69C947F89739</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CE7C02E4-B5D3-A56E-6578-D220731C496E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="498A87F4-6F96-E207-5501-141B7B354352" name="groups_students_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-11-26 08:08:44 UTC</createdTime>
+<generatorID>927DB79E-0485-E3A7-6DF8-69C947F89739</generatorID>
+<ownerDesignName>iba_tabels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE7C02E4-B5D3-A56E-6578-D220731C496E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>
