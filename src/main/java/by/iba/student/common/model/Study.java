@@ -1,12 +1,12 @@
-package by.iba.student.common.studies;
+package by.iba.student.common.model;
 
-public class Studies {
+public class Study {
   private   int professor_id;
   private   String name;
   private   int hours;
   private   double avg_mark;
 
-    Studies(int professor_id, String name, int hours, double avg_mark){
+    Study(int professor_id, String name, int hours, double avg_mark){
         this.professor_id = professor_id;
         this.name = name;
         this.hours = hours;

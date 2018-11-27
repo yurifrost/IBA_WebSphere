@@ -1,17 +1,19 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>mainpage</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/styles/buttonTheme.css">
 </head>
 
 <body>
 <div class="buttons">
-    <button>by.iba.student.common.professors</button>
-    <button>by.iba.student.common.students</button>
+    <button>Professors</button>
+    <button>Students</button>
     <button>Groups</button>
-    <button>by.iba.student.common.marks</button>
+    <button>Marks</button>
 </div>
 </body>
 

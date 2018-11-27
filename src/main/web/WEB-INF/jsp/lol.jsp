@@ -14,7 +14,7 @@
 <body>
 
 
-${Group.avg_mark}
+${Group.averageMark}
 
 </body>
 </html>

@@ -1,6 +1,6 @@
-package by.iba.student.common.marks;
+package by.iba.student.common.model;
 
-public class Marks {
+public class Mark {
 
     private int study_id;
     private int student_id;
@@ -9,7 +9,7 @@ public class Marks {
     private int mark;
     private String comments;
 
-    public Marks(int study_id, int student_id, String date, String professor_id, int mark, String comments){
+    public Mark(int study_id, int student_id, String date, String professor_id, int mark, String comments){
         this.comments = comments;
         this.date = date;
         this.mark = mark;

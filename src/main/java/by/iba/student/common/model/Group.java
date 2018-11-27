@@ -1,4 +1,4 @@
-package by.iba.student.common.group;
+package by.iba.student.common.model;
 
 public class Group {
 

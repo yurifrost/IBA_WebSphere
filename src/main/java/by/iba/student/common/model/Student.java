@@ -1,13 +1,13 @@
-package by.iba.student.common.students;
+package by.iba.student.common.model;
 
-public class Students {
+public class Student {
     private String first_name;
     private String second_name;
     private String father_name;
     private int group_num;
     private double avg_mark;
 
-    public Students(String first_name, String second_name, String father_name, int group_num, double avg_mark) {
+    public Student(String first_name, String second_name, String father_name, int group_num, double avg_mark) {
         this.first_name = first_name;
         this.second_name = second_name;
         this.father_name = father_name;

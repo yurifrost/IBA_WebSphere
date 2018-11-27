@@ -1,12 +1,12 @@
-package by.iba.student.common;
+package by.iba.student.common.model;
 
-public class Student {
+public class StudentForTest {
 	
 	private String firstName;
 	private String secondName;
 	
 
-	public Student(String firstName, String secondName) {
+	public StudentForTest(String firstName, String secondName) {
 		super();
 		this.firstName = firstName;
 		this.secondName = secondName;
